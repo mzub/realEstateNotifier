@@ -62,11 +62,51 @@
             <span class="section-heading-upper">Поиск</span>
             <span class="section-heading-lower">Аппартаменты мечты</span>
           </h2>
-          <p class="mb-3">Bla
-          </p>
-          <div class="intro-button mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Регион поиска</label>
+              <input type="text" class="form-control" id="regionSearch" aria-describedby="regionSearch" placeholder="введите регион поиска недвижимости">
+            </div>
+            <div class="form-group">
+              <label>Фильтры</label>
+              <div class="input-group mb-3">
+                <div class="form-group row">
+                  <label for="priceFrom" class="col-sm-6 col-form-label">Стоимость от</label>
+                  <div class="col-sm-6">
+                    <input type="number" class="form-control" id="priceFrom" placeholder="10000">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="priceUpTo" class="col-sm-6 col-form-label">Стоимость до</label>
+                  <div class="col-sm-6">
+                    <input type="number" class="form-control" id="priceUpTo" placeholder="50000">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label" class="col-form-label">Комнат:&nbsp;&nbsp;</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox3">3</label>
+              </div>
+            </div>
+            <div class="intro-button mx-auto">
+              <br>
+              <a class="btn btn-primary btn-xl" href="#">НАЙТИ!</a>
+            </div>
+          </form>
+          <!-- <div class="intro-button mx-auto">
             <a class="btn btn-primary btn-xl" href="#">НАЙТИ!</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
